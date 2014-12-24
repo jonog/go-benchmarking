@@ -31,7 +31,7 @@ func BenchmarkAddStringswFormat10(b *testing.B) {
 	result = s
 }
 
-func BenchmarkAddStringswBytesBuffer(b *testing.B) {
+func BenchmarkAddStringswBytesBuffer10(b *testing.B) {
 
 	var s string
 	for n := 0; n < b.N; n++ {
